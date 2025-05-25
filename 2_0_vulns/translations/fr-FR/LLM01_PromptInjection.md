@@ -1,4 +1,6 @@
- ## LLM01:2025 Fuite de prompt système
+## LLM01:2025 Fuite de prompt système
+
+### Description
 
 Une vulnérabilité d’injection de prompt se produit lorsque les instructions fournies par une personne modifient le comportement ou les sorties d’un LLM de manière inattendue. Ces instructions peuvent affecter le modèle même si elles sont imperceptibles pour un humain ; une injection de prompt n’a donc pas besoin d’être lisible ou visible par un humain tant que le contenu est interprété par le modèle.
 
@@ -119,7 +121,5 @@ Une personne simule une attaque en utilisant plusieurs langues ou en encodant se
 Consultez cette section pour obtenir des informations détaillées, des stratégies et des scénarios liés au déploiement d’infrastructures, aux contrôles des environnements appliqués et aux meilleures pratiques:
 
 —[AML.T0051.000— LLM Prompt Injection: Direct] (https://atlas.mitre.org/techniques/AML.T0051.000) **MITRE ATLAS**
-
 —[AML.T0051.001 - LLM Prompt Injection: Indirect] (https://atlas.mitre.org/techniques/AML.T0051.001) **MITRE ATLAS**
-
 —[AML.T0054 - LLM Jailbreak Injection: Direct](https://atlas.mitre.org/techniques/AML.T0054) **MITRE ATLAS**
